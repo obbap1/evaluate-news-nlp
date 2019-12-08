@@ -11,7 +11,7 @@ function handleSubmit(event) {
 
   const data = sanitizeInput(formText);
 
-  return fetch("http://localhost:4000/nlp", {
+  return fetch("https://nlp-1.herokuapp.com/nlp", {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
     // mode: "no-cors", // no-cors, *cors, same-origin
     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached

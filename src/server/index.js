@@ -22,8 +22,12 @@ app.get("/", function(req, res) {
 });
 
 // designates what port the app will listen to for incoming requests
-app.listen(4000, function() {
-  console.log("Example app listening on port 4000!");
+app.listen(process.env.PORT || 4000, function() {
+  console.log(
+    `Example app listening on port ${
+      process.env.PORT ? process.env.PORT : 4000
+    }!`
+  );
 });
 
 app.post("/nlp", function(req, res) {
