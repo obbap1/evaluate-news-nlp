@@ -5,6 +5,8 @@
   <img src="./pictures/second.png" width="40%" height="200">
 </p> 
 
+# Demo
+You can find a demo [here](https://pensive-saha-5058c8.netlify.com)
 
 # Introduction
 This Project uses the Node SDK for the **Aylien Text API** to predict the specific label an article falls under. It can be Arts and Culture,Technology, etc. The confidence levels for the prediction are also communicated, and it handles predictions for plain text.
